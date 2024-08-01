@@ -1,0 +1,30 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2vw;
+    column-gap: 2vw;
+    margin: 2vw;
+
+    div{
+        background-color: lightgray;
+        padding: 2vw;
+        width: 18.28vw;
+        border-radius: 2vw;
+    }
+    h2 {
+        text-align: center;
+    }
+}
+
+button{
+    background-color: green;
+    border: none;
+    font-size: 2vw;
+    padding: 1vw 2vw;
+    color: white;
+    border-radius: 3vw;
+}
+section#buttons{
+    display: flex;
+    justify-content: space-around;
+}
